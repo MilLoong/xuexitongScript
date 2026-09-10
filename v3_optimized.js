@@ -46,14 +46,14 @@
     function initializePlayer() {
         const app = {
             configs: {
-                playbackRate: 1.5,
+                playbackRate: 2.0,
                 autoplay: true,
                 retryInterval: 2000,
                 maxRetries: 10,
                 videoCheckInterval: 1000,
                 guardNoProgressMs: 7000,
                 guardResumeCooldownMs: 1500,
-                autoAdvanceNoVideo: false,
+                autoAdvanceNoVideo: true,
             },
             _videoEl: null,
             _treeContainerEl: null,
